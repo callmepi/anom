@@ -32,10 +32,6 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
-## 
-
-
-
 ## pre-Check
 
 (1)   
@@ -185,43 +181,34 @@ To host the Memcached service:
 2. Onto Dockerfile: uncomment the lines under subsection 'Install Memcached'
 
 
-* TODO:
-[set web ports and other options witn an .env file](https://stackoverflow.com/questions/52664673/how-to-get-port-of-docker-compose-from-env-file)
 
+#### TODO: configutations
 
-* TODO: Maria database
+* [set web ports and other options witn an .env file](https://stackoverflow.com/questions/52664673/how-to-get-port-of-docker-compose-from-env-file)
 
+* Maria database (setup instructions)
 
-* TODO: Adminer
-(https://stackoverflow.com/questions/33631085/how-to-use-adminer-with-composer-autoload-php)
+* Adminer instructions on how to setup as a Database adminitration helper; [check this!](https://stackoverflow.com/questions/33631085/how-to-use-adminer-with-composer-autoload-php)
 
+* phpMyAdmin; configuring instuctions or setup phpMyAdmin as a docker database helper
 
-* TODO: phpMyAdmin
+* Apache; advanced configuration options
 
-
-* Apache
-
+* nginx; setup nginx as the default web-server
 
 * Opcache and JIT
 
 
-TODO:
 
-## Staging
+## TODO: build and deploy
 
-#### Build
+build and deply instructions for various plarforms (GCloud, Azure, etc)
 
-#### Deploy
+* Staging (Build / Deploy)
+* Production (Build / Deploy)
 
-
-## Production
-
-### Build
-
-### Deploy
 
 ! Run the above commands ONLY when you need to manually deploy the app to Cloud Run, otherwise everything is automated using Cloud Builds
-
 
 
 

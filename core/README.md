@@ -1,4 +1,4 @@
-## x-anom
+## (x-)anom
 ### X is ANOther Mvc
 
 x-anom is an Object-Oriented MVC php-framework.
@@ -115,9 +115,7 @@ folder to find out more.
 
 * It lacks a query builder (SQL is easy and very powerful); do not forget to use prepared statements for all your SQL queries.
 
-* TODO: User-Role based administration class.
-
-* TODO: Shoping-Cart class.
+* TODO: an abstruct Shoping-Cart class
 
 
 
