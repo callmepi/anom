@@ -1,0 +1,478 @@
+p {
+    margin: 10px 0;
+    padding: 0;
+    color: #0E0C0C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img, a img {
+    border: 0;
+    height: auto;
+    outline: none;
+    text-decoration: none;
+}
+
+body, #bodyTable, #bodyCell {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mcnPreviewText {
+    display: none !important;
+}
+
+#outlook a {
+    padding: 0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+table {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+.ReadMsgBody {
+    width: 100%;
+}
+
+.ExternalClass {
+    width: 100%;
+}
+
+p, a, li, td, blockquote {
+    mso-line-height-rule: exactly;
+}
+
+    a[href^=tel], a[href^=sms] {
+        color: inherit;
+        cursor: default;
+        text-decoration: none;
+    }
+
+p, a, li, td, body, table, blockquote {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font {
+    line-height: 100%;
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+.templateContainer {
+    max-width: 700px !important;
+}
+
+a.mcnButton {
+    display: block;
+}
+
+.mcnImage, .mcnRetinaImage {
+    vertical-align: bottom;
+}
+
+.mcnTextContent {
+    word-break: break-word;
+}
+
+    .mcnTextContent img {
+        height: auto !important;
+    }
+
+.mcnDividerBlock {
+    table-layout: fixed !important;
+}
+
+.noBorder {
+    border: none !important;
+}
+
+h1 {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+h2 {
+    color: #0E0C0C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #0E0C0C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+h4 {
+    color: #0E0C0C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+    h1 span,
+    h2 span,
+    h3 span,
+    h4 span {
+        font-weight: normal;
+        text-transform: none;
+    }
+
+#templateHeader {
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 1px solid #e3e3e3;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+    #templateHeader.default {
+        border: none;
+        padding: 0;
+    }
+
+.headerContainer {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .headerContainer .mcnTextContent, .headerContainer .mcnTextContent p {
+        color: #757575;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: left;
+    }
+
+        .headerContainer .mcnTextContent a, .headerContainer .mcnTextContent p a {
+            color: #007C89;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+#templateBody {
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+    #templateBody a {
+        color: #F47920;
+        text-decoration: none;
+    }
+
+    #templateBody p {
+        margin: 0;
+        color: #333333;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        padding-bottom: 5px;
+    }
+
+#templateBodyMsg p {
+    max-width: 586px;
+}
+
+.bodyContainer {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .bodyContainer .mcnTextContent,
+    .bodyContainer .mcnTextContent p {
+        color: #333333;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: left;
+    }
+
+        .bodyContainer .mcnTextContent a,
+        .bodyContainer .mcnTextContent p a {
+            color: #F47920;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+#templateAfterFooter p {
+    margin: 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+    #templateAfterFooter p a {
+        margin: 0;
+        color: #F47920;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+#templateFooter {
+    background-color: #333333;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footerContainer {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 700px !important;
+}
+
+    .footerContainer .bodyContainer {
+        padding: 0 30px;
+    }
+
+    .footerContainer ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+        .footerContainer ul li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+            .footerContainer ul li:last-child {
+                margin-right: 0;
+            }
+
+    .footerContainer .mcnTextBlockInner,
+    .footerContainer .mcnTextBlockInner p {
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+        .footerContainer .mcnTextBlockInner a,
+        .footerContainer .mcnTextBlockInner p a {
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 18px;
+            text-decoration: none;
+        }
+
+.templateHeroContainer {
+    max-width: 700px;
+}
+
+.heroContainer {
+    position: relative;
+}
+
+    .heroContainer img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .heroContainer p {
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        padding: 0 120px;
+        position: absolute;
+        left: 0;
+        bottom: 80px;
+        width: 100%;
+        text-align: center;
+        font-weight: normal;
+        margin: 0;
+    }
+
+#templateProducts {
+    padding: 0 0 90px;
+}
+
+    #templateProducts .mcnTextBlockInner {
+        padding: 0 20px;
+    }
+
+    #templateProducts span {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0E0C0C;
+    padding-bottom: 2px;
+}
+
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.tdMinWidth {
+    max-width: 310px;
+}
+
+@media only screen and (max-width:700px) {
+    .templateContainer {
+        width: 360px !important;
+    }
+
+    .bodyContainer {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .footerContainer ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+        .footerContainer ul li:last-child {
+            margin-bottom: 0;
+        }
+
+    .heroContainer p {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 30px;
+        bottom: 30px;
+    }
+
+    .tdMinWidth {
+        max-width: 200px;
+    }
+
+    .halfColumn {
+        padding: 20px 10px 0 !important;
+    }
+}
+
+/*	td {
+    outline: 1px solid red;
+}*/

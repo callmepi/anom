@@ -1,0 +1,388 @@
+[sources]
+pxfuel = https://www.pxfuel.com/en/
+unsplash = https://unsplash.com/photos/n7a2OJDSZns
+
+[media]
+spring-04 ;; pxfuel ;; desktop-wallpaper-evgsz ;; @pxfuel
+fall-01 ;; pxfuel ;; en/desktop-wallpaper-fohmu ;; @pxfuel: Green And Yellow Leaves Texture
+fall-06 ;; unsplash ;; n7a2OJDSZns ;; Harli Marten: photo of blue and pink sea
+fall-07 ;; pxfuel ;; desktop-wallpaper-qdmfe ;; @pxfuel: Cades Cove Sunrise, Great Smoky Mountains, Tennessee Nature
+
+    /**
+     * https://unsplash.com/s/photos/landscape-nature-light?orientation=landscape
+     * 
+     * https://unsplash.com/photos/FIKD9t5_5zQ
+     * https://unsplash.com/photos/6tfO1M8_gas
+     * https://unsplash.com/photos/0TND2_18n-s
+     * https://unsplash.com/photos/FFCQ5fLb4bU
+     */
+     
+
+[todo]
+https://unsplash.com/photos/2s3fI3M1lO0
+
+
+++ https://unsplash.com/photos/KhhOAsE5M6Y : Damaraland, Namibia
+++ https://unsplash.com/photos/yQ9NNBelr0Y : Cape Town
+++ https://unsplash.com/photos/EQ_MuV5pfe0 : Eureka Sand Dunes, California
+++ https://unsplash.com/photos/j8PfDO_mT3c : Maasai Mara National Reserve, Kenya ++
++? https://unsplash.com/photos/FspSQm4mPbg : Ngorongoro, Tanzania
+++ https://unsplash.com/photos/9zlTSybQKzY : Malawi, Africa ++
++? https://unsplash.com/photos/0QTsC9YtovE : Cape Town
+++ https://unsplash.com/photos/DYxsvMWAnj8
+++ https://unsplash.com/photos/0pxH8jdABwo : Indonesia ++
+++ https://unsplash.com/photos/kDzqnYTGnUE !!
++? https://unsplash.com/photos/L6EP96_w1Fc : Cape Town
+++ https://unsplash.com/photos/qfntmjboDyc : Ko Hong, Thailand
+++ https://unsplash.com/photos/GlJDbNpRZzI : Quảng Ninh, Vietnam
++? https://unsplash.com/photos/J_C3_JpJMms : Mount Fuji, Kitayama, Fujinomiya, Japon
+++ https://unsplash.com/photos/dg4AfLITDH8 : Hạ Long Bay, Vietnam ++
+++ https://unsplash.com/photos/prBOww8R1Js : Mining Town, Ipoh, Malaysia
+++ https://unsplash.com/photos/o3Z8qhsWdiU : Bhigwan, India -> text:#fed
+++ https://unsplash.com/photos/cIYep5O1pn8 : Java, Indonesië ++
+++ https://unsplash.com/photos/r7DTD91MEUQ : Siargao Island, Philippines
+++ https://unsplash.com/photos/fO_PNFXw434 : Bagan, Myanmar (Birmania) -> text:#543
++? https://unsplash.com/photos/BOj8Py1IcbU : Santa Cruz, Argentina
++? https://unsplash.com/photos/biIqtNDjlqY : Mendoza, Argentina
+++ https://unsplash.com/photos/HO-uMoDyjA8 : Lima District, Peru
+++ https://unsplash.com/photos/1YfXF2Rgzs4 : Vale do Colca, Chivay, Peru
+++ https://unsplash.com/photos/NOgn3fA94N4 : Cataratas do Iguaçu, Brazil
++? https://unsplash.com/photos/dmweMDLyPdY : State of Santa Catarina, Brazil
+++ https://unsplash.com/photos/CErddu-JwKw : Rio de Janeiro, Brazil
+++ https://unsplash.com/photos/Zv3-nrfYz1E : Florianópolis, Brazil
+++ https://unsplash.com/photos/mVfTcRGVK48 : Rio de Janeiro, Brazil
+++ https://unsplash.com/photos/HpaDxLjg2kQ : Bayern, Germany
+++ https://unsplash.com/photos/XacZR1cmC2A : Mettlach, Germany
++? https://unsplash.com/photos/Tj7x6zFYKV0 : Rostock, Germany
++? https://unsplash.com/photos/YMPUJexvNa8 : Munich, Germany
++? https://unsplash.com/photos/rMU6tt1c2ZE : Westerhever, Germany
+++ https://unsplash.com/photos/BHEJJ8os0mY : Germany
+++ https://unsplash.com/photos/eAZOKkEhzDg : Baikal, Irkutsk Oblast, Russia
+++ https://unsplash.com/photos/d3AFql-AGvc : Vladivostok, Russia
+++ https://unsplash.com/photos/W3u3jpbhPd8 : Samara, Russia ++
++? https://unsplash.com/photos/Igdf9n_fqeo
+++ https://unsplash.com/photos/vZyKSjhpnsY : Russia
+++ https://unsplash.com/photos/U_diPCXCBxU : Flakstad, Norway
+++ https://unsplash.com/photos/LKOuYT5_dyw : Lofoten, Norway -> text:#fed
+++ https://unsplash.com/photos/2XpixHtHmVc : Lofoten, Norway
++? https://unsplash.com/photos/OF7jUVrEDJQ
+++ https://unsplash.com/photos/DxRXjBQAb8I : Nykvåg, Norway -> text:#fee
+++ https://unsplash.com/photos/NWANKTV5yHU : Leknes, Norway
+++ https://unsplash.com/photos/wyM1KmMUSbA : Vittangi, Sweden
+++ https://unsplash.com/photos/6gVOt8qOJ08 : Ljungskile, Sweden
+++ https://unsplash.com/photos/AkUR27wtaxs : Högakustenbron, Sweden -> text:#fed
+++ https://unsplash.com/photos/YPJTuZkZn4o : Stockholm, Sweden
+
+++ https://unsplash.com/photos/_VI5TIoEvoE : Jalan Penang, George Town, Malaysia
+
+
+[new] ++
+https://unsplash.com/photos/Q_LffdLyQqk
+https://unsplash.com/photos/AfGUx4-QVp4
+https://unsplash.com/photos/0lGVcrAFHZQ
+https://unsplash.com/photos/PaM7SD5wM6g
+https://unsplash.com/photos/PrZw3_3xUxI
+
+
+++++!!! https://unsplash.com/photos/U_diPCXCBxU
+Johny Goerend: Skagsanden beach, Flakstad, Norway
+
+++++ !!! https://unsplash.com/photos/11UNqZinsv8
+Johny Goerend: Early foggy morning
+
+++++ !! https://unsplash.com/photos/it83wUDzkBU
+Johny Goerend: A cold sunrise in Luxembourg during winter 2016/2017
+
+++++ !! https://unsplash.com/photos/XAxEp-NKBiQ
+Eberhard Grossgasteiger: Silhouette of mountain (Pinkalicious)
+
+
++++++ !!!!! https://unsplash.com/@iamthedave +++!!!
+
+
++++! https://unsplash.com/photos/0TND2_18n-s : summer
+
+
+
+https://unsplash.com/photos/X0y-PB-3emw
+Dave: Leafless tree on foggy weather (Portage, WI, USA)
+
+https://unsplash.com/photos/3AByV6h865M
+Dave: Kohler-Andrae State Park, Beach Park Lane, Sheboygan, WI, USA
+
+https://unsplash.com/photos/1ntpXBX2-JU
+Casey Horner: La Luna del Diablo (Mount Diablo, United States)
+
+https://unsplash.com/photos/0vw4InAC-yM
+Wladislaw Sokolowskij: White mountains under pale blue sky (Wildkogel, Austria)
+
+
+https://unsplash.com/photos/EHf86BdnWHI
+Dave: A field of tall grass (Germantown, WI, USA)
+
+winter
+https://unsplash.com/photos/7ryssh6DmUk
+Dave: fire on brown wooden log Stephenson (WI, USA)
+
+https://unsplash.com/photos/SmAiLn-nnJg
+Justin Luebke: Snow capped mountain in mirror reflection (Twin Lakes, United States)
+
++++ https://unsplash.com/photos/twukN12EN7c
+Simon Berger: Altmünster am Traunsee, Neukirchen bei Altmünster, Oberösterreich, Österreich
+
+
+https://unsplash.com/photos/nBwl4ROxTXI
+https://unsplash.com/photos/1Zgn-Xg1xGg
+https://unsplash.com/photos/3lUtceZtmIs
+https://unsplash.com/photos/lNtCGfuGZao
+
+
+.. https://unsplash.com/photos/IUCrOikDZi4
+.. https://unsplash.com/photos/tree-on-body-of-water-near-mountains-KonWFWUaAuk
+
+
+
+[change]
+fall-01
+
+
+
+[delete]
+fall-08
+spring-01
+spring-02
+
+
+[wow]
+https://www.pexels.com/photo/a-globe-lamp-on-the-wooden-desk-with-a-white-textile-backdrop-7635248/
+https://www.pexels.com/photo/a-globe-on-the-white-stand-near-the-yellow-paper-7634889/
+++ https://www.pexels.com/@marina-zasorina/
+https://www.pexels.com/photo/aerial-view-of-trees-near-body-of-water-under-blue-sky-14742225/
+https://www.pexels.com/photo/an-illuminated-globe-beside-wine-glasses-7634351/
+https://www.pexels.com/photo/pastoruri-16846782/
+https://www.pexels.com/photo/una-tarde-normal-16693424/
+
+
+
+    // fall
+    https://www.istockphoto.com/photo/vertical-ratio-size-of-sunset-background-sky-with-soft-and-blur-pastel-colored-gm1249608150-364223108
+    FTiare: Sky with soft and blur pastel colored clouds
+
+
+
+    // summer-09
+    // https://www.freepik.com/free-photo/body-water_13126578.htm
+    // ninjason1: Body of water
+
+
+f w
+++> https://www.freepik.com/free-photo/abstract-concept_19139838.htm
+rawpixel.com: Abstract background cement wall shadow light concept
+
+++ https://www.freepik.com/free-photo/golden-background-with-palm-tree_16015732.htm
+++ https://www.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_16358987.htm
+++ https://img.freepik.com/free-vector/abstract-gray-gradient-background-vector-with-tropical-leaf-shadow_53876-125453.jpg
+
+f
+https://www.freepik.com/free-photo/summer-beach-destination_2971748.htm
+rawpixel.com: Summer beach clean holiday destination
+
+g
+https://www.freepik.com/free-vector/spring-floral-watercolor_17221627.htm
+rawpixel.com: Spring floral watercolor background vector with leaf illustration
+
+s g
+https://www.freepik.com/free-photo/beach-background_4191224.htm
+rawpixel.com: Beach product background
+
+
+/** cc photo sources
+https://www.vecteezy.com/vector-art/6849519
+https://www.vecteezy.com/vector-art/6691097
+
+summer
+++ https://www.freepik.com/free-photo/north-beach-ocean-nazare-portugal_7487020.htm
++ https://www.freepik.com/free-photo/north-beach-ocean-nazare-portugal_7487026.htm
+++ https://www.freepik.com/free-photo/waves-sea-sunset_975712.htm
+https://www.freepik.com/free-photo/beautiful-shot-tree-trunks-water-with-blue-sky-background_9282923.htm
++ https://www.freepik.com/free-photo/vertical-overhead-shot-wavy-sea-against-seashore_11354068.htm
++ https://www.freepik.com/free-photo/top-view-sand-meeting-seawater_9818948.htm
+++ https://www.freepik.com/free-photo/summer-beach-clean-holiday-destination_2971748.htm
++ https://www.freepik.com/free-photo/waves-sea-sunset_975711.htm
+!! https://www.freepik.com/free-photo/overhead-shot-people-enjoying-sunny-day-sandy-beach-near-beautiful-waves-sea_9970655.htm
+!! https://www.freepik.com/free-photo/aerial-shot-beach-surrounded-by-greenery-sea_11527527.htm
+++ https://www.freepik.com/free-photo/north-beach-ocean-nazare-portugal_7487013.htm#page=7&position=10&from_view=author
+
+
+spring
++ https://www.pexels.com/photo/pink-flowers-photography-1128797/
++ https://www.freepik.com/free-photo/sunrise-farmland_10304055.htm
+
+
+fall
+++ https://www.freepik.com/free-photo/orange-fall-foliage-with-copy-space_5285370.htm
+++ https://www.freepik.com/free-photo/top-view-see-through-leaf-texture_10205892.htm
+++ https://www.freepik.com/free-photo/flat-lay-see-through-leaf-texture_10205888.htm
+++ https://www.freepik.com/free-photo/top-view-transparent-leaves-with-orange-light_23404485.htm
+++ https://www.freepik.com/free-photo/close-up-colourful-autumn-leaf-concept_8034414.htm
+
+[done] https://www.freepik.com/free-photo/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal-toning_1284515.htm
+<a href="https://www.freepik.com/free-photo/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal-toning_1284515.htm">Image by valeria_aksakova</a> on Freepik
+
+
+
+Valeria Aksakova: Autumn leaves on autumn red background, sunny daylight horizontal toning
+https://www.freepik.com/free-photo/beautiful-autumn-leaves_1284515.htm
+
+
+
+++ https://www.freepik.com/free-photo/flat-lay-close-up-autumn-leaf_12356800.htm
+++ https://www.freepik.com/free-photo/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal_1284510.htm
+++ https://www.freepik.com/free-photo/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal-toning_1284514.htm
++ https://www.freepik.com/free-vector/watercolor-autumnal-leaves_15637300.htm
+++ https://www.freepik.com/free-photo/vertical-shot-lake-pukaki-mount-cook-new-zealand_12177133.htm
+++ https://www.freepik.com/free-photo/beautiful-landscape-with-river-bridge-background_1014581.htm
+
+
+
+fall + winter
+++ https://www.freepik.com/free-vector/blurred-background-with-fog_974277.htm
+++ https://www.freepik.com/free-photo/dense-blue-cloud-haze_4284790.htm
+++ https://www.freepik.com/free-vector/abstract-watercolour-style-landscape_2114994.htm
+++ https://www.freepik.com/free-photo/breathtaking-shot-lake-wanaka-wanaka-village-new-zealand_11111328.htm
+++ https://www.freepik.com/free-photo/look-from-coast-blue-mountains-touching-sea_1621928.htm
+
+
+winter+spring
+++ https://www.freepik.com/free-photo/aerial-view-from-drone-flying-clouds_45141892.htm
+++ https://www.freepik.com/free-photo/breathtaking-shot-lake-wanaka-wanaka-village-new-zealand_11486702.htm
+++ https://www.freepik.com/free-photo/beautiful-shot-lake-with-snowy-trees-distance-fog_12040255.htm
+++ https://www.freepik.com/free-photo/closeup-shot-moss-plants-growing-tree-branch-forest_10186581.htm
+++ https://www.freepik.com/free-photo/beautiful-view-bohemian-switzerland-landscape-czech-republic-with-trees_16226217.htm
++ https://www.freepik.com/free-photo/aerial-shot-colorful-autumn-forest_16226032.htm
+
+
+
+winter
+++ https://www.freepik.com/free-photo/fantastic-winter-landscape-mountains-magical-sunset_9144399.htm
++++ https://www.freepik.com/free-photo/cottage-glen-etive-scotland_16462487.htm
+
+
+all
+https://www.freepik.com/free-photo/abstract-light-reflection-wall_3216895.htm
+++ https://www.freepik.com/free-photo/panorama-paris-sunset_800495.htm
+++ https://www.freepik.com/free-photo/peter-paul-fortress-summer-dawn_1491317.htm#from_view=detail_alsolike
+++ https://www.freepik.com/free-photo/pier-with-multiple-fishing-walking-people-sunset-parked-bike-land-lampposts-greece_12311187.htm
+++ https://www.freepik.com/free-photo/fenced-paddock-foggy-lake-during-sunset-radasjon-sweden_11062843.htm
++ https://www.freepik.com/free-photo/colorful-wooden-abstract-background_13971810.htm
++ https://www.freepik.com/free-photo/gold-texture_986435.htm
++ https://www.freepik.com/free-photo/bottom-view-blurred-office-buildings_943255.htm
+++ https://www.freepik.com/free-photo/new-jersey-march-20-empty-sky-memorial-with-sunshine-march-20-2014-new-jersey-it-is-official-new-jersey-september-11-memorial-victims-september-11-attacks_26824431.htm
+++ https://www.freepik.com/free-photo/contemporary-building-exterior-skyscraper-design-concept_3540049.htm
+++ https://www.freepik.com/free-photo/skyscrapers-from-low-angle-view_1120766.htm
++ https://www.freepik.com/free-photo/los-angeles-night-with-urban-buildings-black-white_26740414.htm
+++ https://www.freepik.com/free-photo/motion-blur-automatic-train-moving-inside-tunnel-tokyo-japan_10695396.htm
+++ https://www.freepik.com/free-photo/motion-blur-automatic-train-moving-inside-tunnel-tokyo-japan_10824403.htm
+++ https://www.freepik.com/free-photo/vestrahorn-mountains-sunset-stokksnes-iceland_11768884.htm
+++ https://www.freepik.com/free-photo/snow-mountains-during-sunrise_6336525.htm
+++ https://www.freepik.com/free-photo/landscape-shot-purple-scenery-with-mountain-orange-sky-background_9852316.htm
+++ https://www.freepik.com/free-photo/bukhansan-mountains-is-covered-by-morning-fog-sunrise-bukhansan-national-park-seoul-south-korea_11306413.htm
+++ https://www.freepik.com/free-photo/landmarks-shanghai-along-huangpu-river_1193610.htm
+++ https://www.freepik.com/free-photo/arab-people-with-camel-caravan_800493.htm
+++ https://www.freepik.com/free-photo/candle-turned-off_4230644.htm
+++ https://www.freepik.com/free-photo/blurred-traffic-light-trails-road_1193586.htm
+++ https://www.freepik.com/free-photo/wooden-terrace-by-river_1120768.htm
+++ https://www.freepik.com/free-photo/full-frame-shot-cloudscape-with-plane-flying_1120708.htm
+++ https://www.freepik.com/free-photo/breathtaking-shot-sunset-along-street-middle-modern-city_9932265.htm
++ https://www.freepik.com/free-photo/high-angle-shot-buildings-cloudy-sky-captured-kenya-nairobi-samburu_9282503.htm
+++ https://www.freepik.com/free-photo/high-angle-shot-lot-buildings-with-lights-bridge-evening_8409178.htm
+++ https://www.freepik.com/free-photo/autumn-morning-prague_20712458.htm
++++ https://www.freepik.com/free-photo/clean-city-streets-prague_26731940.htm
+++ https://www.freepik.com/free-photo/prague_1253938.htm
++ https://www.freepik.com/free-photo/high-angle-shot-gloomy-piazzale-michelangelo-florence-with-reflections-river_8990585.htm
+++ https://www.freepik.com/free-photo/skyline-tehran-sunset_27738312.htm
+
+no winter
+++ https://www.freepik.com/free-photo/old-town-stockholm-during-sunrise_8857566.htm
+
+
+no-summer
+++ https://www.freepik.com/free-photo/view-foggy-mountain-landscape_1120953.htm
+++ https://www.freepik.com/free-photo/view-cityscape-landscapes-stockholm-sweden_3737890.htm
+++ https://www.freepik.com/free-photo/amazing-aerial-view-mountains-partially-covered-with-snow-positioned-higher-than-clouds_10606093.htm
+
+
+Wow! dark:
+https://www.flickr.com/photos/docsearls/48688569986/
+https://www.flickr.com/photos/docsearls/48688235508/
+
+
+
+
+https://www.flickr.com/photos/31176607@N05/34285736050/
+https://www.flickr.com/photos/138748077@N02/45718622541/
+https://www.flickr.com/photos/ralf_wimmer/27036520782/
+https://www.flickr.com/photos/138748077@N02/34389004555/
+https://www.flickr.com/photos/85654079@N08/27486851781/
+https://www.flickr.com/photos/138748077@N02/25537545436/
+https://www.flickr.com/photos/usfwsmtnprairie/27843236814/
+https://www.flickr.com/photos/virtualwayfarer/33297675331/
+https://www.flickr.com/photos/dainismatisons/21671368390/
+https://www.flickr.com/photos/dainismatisons/30357980091/
+https://www.flickr.com/photos/virtualwayfarer/33297672771/
+https://www.flickr.com/photos/harquail/36634758421/
+https://www.flickr.com/photos/ky0ncheng/36263938554/ = PD
+https://www.flickr.com/photos/felixcarlos/26204414328/ = PD
+https://www.flickr.com/photos/skeyndor/33582112104/ = PD
+https://www.flickr.com/photos/vlash/31130383278/
+https://www.flickr.com/photos/clickphotos310/37074201823/
+https://www.flickr.com/photos/fredericgombert/27794236359/
+https://www.flickr.com/photos/mgaloseau/17277356452/
+https://www.flickr.com/photos/17316292@N00/13695205855/
+https://www.flickr.com/photos/138748077@N02/26898426412/
+https://www.flickr.com/photos/kk_photographics/18709114915/
+
+https://www.flickr.com/photos/thomashawk/3408348383/
+https://www.flickr.com/photos/pedrobiondi/30834642176/
+https://www.flickr.com/photos/pedrobiondi/30238995904/
+https://www.flickr.com/photos/devcentre/806657950/ + 
+https://www.flickr.com/photos/145089467@N08/46658195125/
+https://www.flickr.com/photos/mara_earthlight/3590205222/
+https://www.flickr.com/photos/fdecomite/16806041639/
+https://www.flickr.com/photos/zivturner/3397599628/
+
+https://www.flickr.com/photos/rastone-freebies/44877503371/ !
+https://www.flickr.com/photos/fototexture/16647404351/
+https://www.flickr.com/photos/maheanuu/40844488773/
+https://www.flickr.com/photos/icstefanescu/29852682958/
+https://www.flickr.com/photos/eltsulolli/41797500361/
+https://www.flickr.com/photos/collisionconf/41115414074/
+https://www.flickr.com/photos/153317420@N04/40375386294/ +
+
+https://www.flickr.com/photos/138402863@N02/23445581921/ !++
+https://www.flickr.com/photos/78423546@N06/43429924691/ = PD
+https://www.flickr.com/photos/78423546@N06/42135640880/ = PD
+https://www.flickr.com/photos/78423546@N06/52780304947/ = PD
+https://www.flickr.com/photos/tomcollinsphoto/40178410432/ !+++
+https://www.flickr.com/photos/164417177@N06/44004978630/ ?
+https://www.flickr.com/photos/94284791@N05/39229046194/ !
+https://www.flickr.com/photos/hoanghaithinh/45678059161/
+https://www.flickr.com/photos/mauritf/1949203617/
+https://www.flickr.com/photos/theqspeaks/16014303086/ ?
+https://www.flickr.com/photos/twinxamot/3238897814/ ?
+https://www.flickr.com/photos/ronduong/39336013514/ !
+https://www.flickr.com/photos/luzyamor/25301247527/
+https://www.flickr.com/photos/tomcollinsphoto/40178410432/
+https://www.flickr.com/photos/129030830@N02/37032688484/
+https://www.flickr.com/photos/drtonygeorge/1474585836/ !
+*/
+
+
+
+
+[downloaded]
+wirestock
+Breathtaking shot of the lake wanaka in wanaka village, new zealand
+breathtaking-shot-lake-wanaka-wanaka-village-new-zealand.jpg
+https://www.freepik.com/free-photo/breathtaking-shot-lake-wanaka-wanaka-village-new-zealand_11111328.htm
+

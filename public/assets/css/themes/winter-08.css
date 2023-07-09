@@ -1,0 +1,11 @@
+:root {
+    --background-image: url(/assets/media/winter-08.webp);
+    --bs-heading-color: #035;
+    --menu-hover-bgr: #cef;
+    --info-text-color: #223;
+
+    --img-credit-hover-color: #334;
+}
+
+.central-form form label { color: #313; }
+tbody, td, tfoot, th, thead, tr { border-color: #def7; }

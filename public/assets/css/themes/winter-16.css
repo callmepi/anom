@@ -1,0 +1,11 @@
+:root {
+    --background-image: url(/assets/media/winter-16.webp);
+    --bs-heading-color: #132;
+    --menu-hover-bgr: #fec;
+    --info-text-color: #334;
+    
+    --img-credit-hover-color: #112;
+    --img-credit-bgr: #4457;
+    --img-credit-bgr-hover: #fffa;
+    --img-credit-color: #ddee;
+}

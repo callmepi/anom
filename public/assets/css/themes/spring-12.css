@@ -1,0 +1,9 @@
+:root {
+    --background-image: url(/assets/media/spring-12.webp);
+    --form-layer-bgr: #cccc;
+    --bs-heading-color: #ffe;
+    --menu-hover-bgr: #fdc;
+    --info-text-color: #112;
+    --img-credit-hover-color: #334;
+    --img-credit-color: #334e;
+}

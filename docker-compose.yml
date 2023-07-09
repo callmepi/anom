@@ -1,0 +1,60 @@
+version: '3.7'
+
+# networks:
+#   anom-network:
+#     driver: bridge
+
+services:
+
+  web:
+    container_name: x-anom
+    build:
+      context: .
+    ports:
+      - "80:8080"
+      # - "1415:8080"
+    volumes:
+      - "./public:/var/www/public"
+      - "./core:/var/www/core"
+      - "./docker:/var/www/docker"
+      - "./storage:/var/www/storage"
+      - "./tests:/var/www/tests"
+      - "./tests:/var/www/public/files"
+      - "./.env:/var/www/.env"
+    environment:
+      PORT: 8080
+    
+    # for xdebug uncomment the 'extra_hosts' subsection
+    # extra_hosts:
+    #   - host.docker.internal:host-gateway
+
+    # network implements a bridge to ohter docker services
+    # networks:
+    #   - anom-network
+
+    command: sh -c "/usr/local/bin/docker-entrypoint.sh"
+
+  #
+  # memcached:
+  #   container_name: anomemcached
+  #   image: memcached:latest
+  #   ports:
+  #     - "11211:11211"
+
+  #
+  # redis: 
+  #   container_name: redis
+  #   image: 'redis:5.0.7-alpine'
+  #   ports:
+  #     - 6379:6379
+  #   networks:
+  #     - anom-network
+
+  #
+  # mailhog
+  # NOTE: this is a fake mail server
+  # mailhog:
+  #     image: mailhog/mailhog:v1.0.0
+  #     ports:
+  #       - "1025:1025"
+  #       - "8025:8025"

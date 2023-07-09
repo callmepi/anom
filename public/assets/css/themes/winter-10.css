@@ -1,0 +1,25 @@
+/* dark theme */
+:root {
+    --background-image: url(/assets/media/winter-10.webp);
+    --light-grey-shade: 1px 5px 7px #2227;
+    --form-layer-bgr: #878b;
+    --clear-read-bgr: transparent;
+
+    --table-row-bgr: #eee2;
+    --table-odd-row-bgr: #fff3;
+    --table-head-bgr: #fff5;
+    --table-row-hover-bgr: #0137;
+
+    --bs-heading-color: #dcb;
+    --info-text-color: #c8b5a3;
+    --menu-hover-bgr: #fcc;
+
+    --img-credit-hover-color: #334;
+    --img-credit-bgr: transparent;
+    --img-credit-color: #9aa;
+}
+
+.central-form form label { color: #fed; }
+
+tbody, td, tfoot, th, thead, tr { border-color: transparent; }
+table.dt-table tr > td, table.dt-table tr > th { color: #fff; }

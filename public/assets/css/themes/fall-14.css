@@ -1,0 +1,9 @@
+:root {
+    --background-image: url(/assets/media/fall-14.webp);
+    --bs-heading-color: #132;
+    --menu-hover-bgr: #fea;
+    --info-text-color: #334;
+    --img-credit-hover-color: #841;
+}
+
+.info.alter p { color: #fff !important; }

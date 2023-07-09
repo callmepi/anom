@@ -1,0 +1,110 @@
+## Introduce the Server
+Header add Origin-Name coder
+
+
+### Deny access to specific folders
+
+  ## deny all files too
+  RedirectMatch 403 ^/app/.*$
+  RedirectMatch 403 ^/cache/.*$
+  RedirectMatch 403 ^/processed-views/.*$
+  
+  ## deny folders only
+  RedirectMatch 403 ^/css/?$
+  RedirectMatch 403 ^/js/?$
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Remove trailing slash
+  RewriteRule ^(.*)/$ /$1 [L,R=301,E=limitcache:1]
+  # Header always set Cache-Control "max-age=5400" env=limitcache
+
+  # Remove index.php from Application Engine URLs
+  # and set 301 Redirects not indefinitely permanent (cache for 1:30h)
+  RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+  RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L,QSA,E=limitcache:1]
+
+  # Define some cache-control max-age for environment = limitcache
+  # but ExpiresDefault on mod_expires will create a duplicate header_-)
+  Header always set Cache-Control "max-age=30" env=limitcache
+
+  # Direct all non-file/directory web requests through the site index file_\\)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ /index.php/$1 [L,QSA]
+</IfModule>
+
+
+### <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+###   <IfModule mod_headers.c>
+###     Header set Access-Control-Allow-Origin "*"
+###   </IfModule>
+### </FilesMatch>
+
+
+### SERVER SIDE OPTIMIZATIONS
+
+### COMPRESSION
+
+# COMPRESS text-anything output
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/json
+
+### ### CACHE-CONTROL HEADERS
+
+# CACHE-CONTROL IMAGES 100days
+<filesMatch ".(jpg|jpeg|png|webp|gif|ico)$">
+    Header set Cache-Control "max-age=8640000, public"
+</filesMatch>
+
+# CACHE CONTOL FONTS 200 daus
+<filesMatch ".(ttf|woff|woff2)$">
+    Header set Cache-Control "max-age=17280000, public"
+</filesMatch>
+
+# CACHE-CONTROL CSS and JS 30days
+###  <filesMatch ".(css|js)$">
+###     Header set Cache-Control "max-age=2592000, public"
+### </filesMatch>
+
+
+### ### EXPIRATION DATES
+
+### # EXPIRATION DATE BY TYPE
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Default directive
+    ExpiresDefault "access plus 0 seconds"
+
+    # My Fav-icon and Images
+    ExpiresByType image/x-icon "access plus 100 days"
+    ExpiresByType image/gif "access plus 100 days"
+    ExpiresByType image/png "access plus 100 days"
+    ExpiresByType image/jpg "access plus 100 days"
+    ExpiresByType image/jpeg "access plus 100 days"
+    ExpiresByType image/webp "access plus 200 days"
+
+    ExpiresByType font/ttf "access plus 200 days"
+    ExpiresByType font/woff "access plus 200 days"
+    ExpiresByType font/woff2 "access plus 200 days"
+
+    # CSS
+###     ExpiresByType text/css "access plus 2 days"
+    # Javascript
+###     ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+
+# Remove Server's Signature
+### ServerSignature Off
