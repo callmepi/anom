@@ -1,4 +1,4 @@
-# x-anom 
+# (x-)anom 
 (another MVC framework)
 
 An open-source, fast, super-light, secure, full-featured, modern, easy to setup, easy to learn,
@@ -6,7 +6,7 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
-## why anom?
+## Why (x-)anom?
 
 * fast and secure
 * modern, super light and elegant
@@ -16,23 +16,26 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
-## requirements
+## Requirements
 
 * php 8.1+
-* web server
-* latest MySQL or MariaDB
+* web server (apache configuration included; nginx to come)
+* latest MySQL or MariaDB (postgreSQL in development)
+
+
+
+## Recommended
+
+* composer
+* git
 
 
 
 ## installation
 
-* download, unzip, crete virtual-host, restart web-server
-* composer based, setup, run
-* docker based
+Before installing onto a production environment you need to pre-cech several settings
 
-
-
-## pre-Check
+### pre-Check
 
 (1)   
 There are several ```composer*.json``` versions;    
@@ -53,8 +56,19 @@ also ideal for file-uploading when serve permition is needed;
 Make sure to keep the one that suits your needs (or both if needed);
 
 
+### Installation and Running on bare-metal or VPS
 
-## Build
+* dowload and copy directory structure an a directory
+* install and setup third party  tools (ex. composer, redis, database)
+* crete a virtual-host; public HTML folder shall point to the ```~/public``` direcotry
+* enable needed apache-modules and your virtual host
+* restart web-server
+
+
+### Installation and Running on Docker 
+
+
+#### Build
 
     docker build -t x-anom .
 
@@ -64,8 +78,7 @@ Force build without using cache:
 
 
 
-
-## Run
+#### Run
 
     docker-compose up
 
@@ -75,15 +88,27 @@ Force rebuild; then run:
 
 
 
-
-## Remove builded containers
+#### Remove builded containers
 
     docker-compose down
 
 
 
 
-## While developing...
+## TODO: build and deploy
+
+build and deply instructions for various plarforms (GCloud, Azure, etc)
+
+* Staging (Build / Deploy)
+* Production (Build / Deploy)
+
+
+! Run the above commands ONLY when you need to manually deploy the app to Cloud Run, otherwise everything is automated using Cloud Builds
+
+
+
+
+#### While developing...
 
 By default autoloading is handled by Composer (this is highly recommended).
 While developing your application (or the framework itself) you will need to
@@ -103,7 +128,7 @@ into ```core/confing/anom_settings.php``` file.
 
 
 
-## XDebug
+#### XDebug
 
 anom comes with most configuration of XDebug ready; all you need is
 
@@ -153,7 +178,7 @@ two caching technologies will work together using the proposed comfiguration.
 
 
 
-#### Redis
+### Redis
 
 To enable Redis...
 
@@ -172,7 +197,7 @@ as your composer.json file -or- install it via:
 
 
 
-#### Memcached
+### Memcached
 
 To host the Memcached service:
 
@@ -182,7 +207,7 @@ To host the Memcached service:
 
 
 
-#### TODO: configutations
+### TODO: configutations
 
 * [set web ports and other options witn an .env file](https://stackoverflow.com/questions/52664673/how-to-get-port-of-docker-compose-from-env-file)
 
@@ -197,18 +222,6 @@ To host the Memcached service:
 * nginx; setup nginx as the default web-server
 
 * Opcache and JIT
-
-
-
-## TODO: build and deploy
-
-build and deply instructions for various plarforms (GCloud, Azure, etc)
-
-* Staging (Build / Deploy)
-* Production (Build / Deploy)
-
-
-! Run the above commands ONLY when you need to manually deploy the app to Cloud Run, otherwise everything is automated using Cloud Builds
 
 
 
