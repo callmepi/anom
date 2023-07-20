@@ -1,3 +1,6 @@
+<?php 
+use anom\core\Render; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

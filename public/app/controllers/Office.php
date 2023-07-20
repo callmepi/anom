@@ -2,8 +2,8 @@
 
 namespace app\controllers;
 
-use Registry;
-use Render;
+use anom\core\Registry;
+use anom\core\Render;
 use app\controllers\Auth;
 use app\extends\App_manager;
 use app\models\Content_model;

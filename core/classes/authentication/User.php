@@ -8,6 +8,8 @@
  */
 namespace anom\authentication;
 
+use anom\authentication\UserInterface;
+
 class User implements UserInterface
 {
 

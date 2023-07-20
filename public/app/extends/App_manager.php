@@ -1,8 +1,8 @@
 <?php 
 namespace app\extends;
 
-use UserManager;
-use Registry;
+use anom\authentication\Core\UserManager;
+use anom\core\Registry;
 
 
 /** ClassUserManager

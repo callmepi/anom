@@ -2,6 +2,7 @@
 
 use anom\core\Route;
 use anom\core\Render;
+use anom\core\Registry;
 
 use app\controllers\Auth;
 use app\controllers\Office;

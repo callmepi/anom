@@ -36,9 +36,7 @@ class DefaultSession implements SessionHandlerInterface {
     public function close() {}
 
     #[ReturnTypeWillChange]
-    public function read(string $id) {
-        
-    }
+    public function read(string $id) {}
 
     #[ReturnTypeWillChange]
     public function write(string $id, string $data) {}

@@ -42,7 +42,7 @@ h4 { padding: .5em 2em; }
             <?=$sql?></code></pre>
         <h4>apply:</h4>
         <pre><code class="language-php">
-use Registrty;
+use anom\core\Registrty;
 use app\models\market\Market_repository as Market;
 
 // ...

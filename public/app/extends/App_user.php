@@ -1,8 +1,8 @@
 <?php 
 namespace app\extends;
 
-use User;
-use Registry;
+use anom\authentication\User;
+use anom\core\Registry;
 
 
 /** Classroom_user

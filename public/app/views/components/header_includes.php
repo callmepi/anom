@@ -1,4 +1,7 @@
 <?php 
+
+use anom\core\Render; 
+
     if (!isset($administration)) {
         $administration = false;
     }

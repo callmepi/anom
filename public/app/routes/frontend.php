@@ -1,6 +1,8 @@
 <?php
 
 use anom\core\Route;
+use anom\core\Render;
+
 use app\controllers\Auth;
 
 

@@ -7,9 +7,11 @@
 namespace anom\authentication\Core;
 
 use anom\authentication\Core\UserManagerInterface;
+use anom\authentication\Core\PasswordTrait;
 use anom\authentication\Token\UserToken;
 use anom\authentication\Token\UserTokenInterface;
 use anom\authentication\UserInterface;
+
 
 class UserManager implements UserManagerInterface
 {

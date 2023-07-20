@@ -1,8 +1,8 @@
 <?php
 namespace app\controllers;
 
-use Registry;
-use Render;
+use anom\core\Registry;
+use anom\core\Render;
 
 // user classes and models
 use app\controllers\JsonToForm;

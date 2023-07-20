@@ -22,7 +22,7 @@
  */
 
 use anom\core\Registry;
-use anom\core\Render;
+use anom\core\Route;
 
 // Define the Base Paths
 // -----------------------------------------------------------------------------

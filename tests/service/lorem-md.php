@@ -1,6 +1,6 @@
 <?php
 
-use Registry;
+use anom\core\Registry;
 
 define("LIMIT", 50);   // number of random records to make
 
