@@ -6,7 +6,7 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
-## Why (x-)anom?
+## 1. Why (x-)anom?
 
 * fast and secure
 * modern, super light and elegant
@@ -16,26 +16,24 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
-## Requirements
+## 2. Requirements
 
 * php 8.1+
 * web server (apache configuration included; nginx to come)
 * latest MySQL or MariaDB (postgreSQL in development)
 
-
-
-## Recommended
+Also the following tools are reccemded
 
 * composer
 * git
 
 
 
-## installation
+## 3. Installation and Deployment
 
 Before installing onto a production environment you need to pre-cech several settings
 
-### pre-Check
+### 3.1 pre-Check
 
 (1)   
 There are several ```composer*.json``` versions;    
@@ -56,7 +54,7 @@ also ideal for file-uploading when serve permition is needed;
 Make sure to keep the one that suits your needs (or both if needed);
 
 
-### Installation and Running on bare-metal or VPS
+### 3.2 Install and Run on bare-metal or VPS
 
 * dowload and copy directory structure an a directory
 * install and setup third party  tools (ex. composer, redis, database)
@@ -65,10 +63,10 @@ Make sure to keep the one that suits your needs (or both if needed);
 * restart web-server
 
 
-### Installation and Running on Docker 
+### 3.3 Setup and Deploy on Docker 
 
 
-#### Build
+#### 3.3.1 Build
 
     docker build -t x-anom .
 
@@ -78,7 +76,7 @@ Force build without using cache:
 
 
 
-#### Run
+#### 3.3.2 Run
 
     docker-compose up
 
@@ -88,14 +86,13 @@ Force rebuild; then run:
 
 
 
-#### Remove builded containers
+#### 3.3.3 Remove builded containers
 
     docker-compose down
 
 
 
-
-## TODO: build and deploy
+#### 3.3.4 TODO: Deploy
 
 build and deply instructions for various plarforms (GCloud, Azure, etc)
 
@@ -107,10 +104,9 @@ build and deply instructions for various plarforms (GCloud, Azure, etc)
 
 
 
+## 4. While developing...
 
-#### While developing...
-
-By default autoloading is handled by Composer (this is highly recommended).
+By default autoloading is handled by Composer (highly recommended).
 While developing your application (or the framework itself) you will need to
 update the autoloading of your new classes. To do so, attach a shell, change
 to ```/var/www``` directory and run ```composer dump-autoload```
@@ -128,7 +124,7 @@ into ```core/confing/anom_settings.php``` file.
 
 
 
-#### XDebug
+### 4.1 XDebug
 
 anom comes with most configuration of XDebug ready; all you need is
 
