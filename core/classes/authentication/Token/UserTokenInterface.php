@@ -4,9 +4,9 @@
  * @package DevCoder\Authentication\Token
  * 
  */
-# namespace DevCoder\Authentication\Token;
-# 
-# use DevCoder\Authentication\UserInterface;
+namespace anom\authentication\Token;
+
+use anom\authentication\UserInterface;
 
 interface UserTokenInterface
 {

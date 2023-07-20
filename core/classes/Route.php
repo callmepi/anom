@@ -1,5 +1,4 @@
 <?php
-
 /** Route
  * ---
  * Methods:
@@ -12,6 +11,8 @@
  * + matches dynamic paths through regex expressions
  * + takes care of request-method
  */
+namespace anom\core;
+
 class Route {
 
     private static $routes = Array();       // array to host routes

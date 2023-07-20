@@ -1,4 +1,5 @@
 <?php
+namespace anom\core;
 
 class Request 
 {

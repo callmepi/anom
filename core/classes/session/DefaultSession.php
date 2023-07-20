@@ -1,5 +1,4 @@
 <?php
-
 /** DefauleSession
  * --
  * 
@@ -7,6 +6,10 @@
  * php's default session engine implementation;
  * 
  */
+namespace anom\core\session;
+
+use anom\core\session\SessionHandlerInterface;
+
 class DefaultSession implements SessionHandlerInterface {
 
     public function __construct()

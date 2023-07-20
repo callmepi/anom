@@ -1,5 +1,8 @@
 <?php 
 
+use anom\core\Route;
+use anom\core\Render;
+
 use app\controllers\Auth;
 use app\controllers\Office;
 use app\models\Content_model;

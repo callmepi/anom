@@ -22,6 +22,10 @@
  * 
  * -----------------------------------------------------------------------------
  */
+namespace anom\core\cache;
+
+use anom\core\cache\Cache_interface;
+
 class FileCache implements Cache_interface
 {
 

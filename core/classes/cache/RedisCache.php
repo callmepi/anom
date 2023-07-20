@@ -5,6 +5,10 @@
  * This class uses \Predis\Redis, so do not forget require it via composer
  * or to use the configuration options you will find into \README.md
  */
+namespace anom\core\cache;
+
+use anom\core\cache\Cache_interface;
+
 class RedisCache implements Cache_interface
 {
     /** set

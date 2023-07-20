@@ -6,6 +6,8 @@
  * 
  * it also has an ::echo() method to list the 
  */
+namespace anom\core;
+
 abstract class Repository
 {
 

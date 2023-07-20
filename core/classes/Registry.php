@@ -18,6 +18,8 @@
  * 
  * ---
  */
+namespace anom\core;
+
 class Registry
 {
 

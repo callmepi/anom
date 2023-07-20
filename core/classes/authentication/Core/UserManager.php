@@ -4,11 +4,12 @@
  * @package DevCoder\Authentication\Core
  * 
  */
-# namespace DevCoder\Authentication\Core;
-# 
-# use DevCoder\Authentication\Token\UserToken;
-# use DevCoder\Authentication\Token\UserTokenInterface;
-# use DevCoder\Authentication\UserInterface;
+namespace anom\authentication\Core;
+
+use anom\authentication\Core\UserManagerInterface;
+use anom\authentication\Token\UserToken;
+use anom\authentication\Token\UserTokenInterface;
+use anom\authentication\UserInterface;
 
 class UserManager implements UserManagerInterface
 {

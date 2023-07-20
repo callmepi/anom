@@ -1,4 +1,7 @@
 <?php
+namespace anom\core\session;
+
+use anom\core\session\SessionHandlerInterface;
 
 // class DatabaseSession implements Session_interface
 class DatabaseSession implements SessionHandlerInterface

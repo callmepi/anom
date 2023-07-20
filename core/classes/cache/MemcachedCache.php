@@ -4,6 +4,10 @@
  * (implements Cache interface; extends Cache)
  * ---
  */
+namespace anom\core\cache;
+
+use anom\core\cache\Cache_interface;
+
 class MemcachedCache implements Cache_interface
 {
 

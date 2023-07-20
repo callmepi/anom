@@ -8,6 +8,8 @@
  * 
  * -----------------------------------------------------------------------------
  */
+namespace anom\core\cache;
+
 interface Cache_interface
 {
     /** Cache::set($key, $data, $ttl) : void

@@ -5,7 +5,7 @@
  * @package DevCoder\Authentication
  * 
  */
-# namespace DevCoder\Authentication;
+namespace anom\authentication;
 
 interface UserInterface
 {

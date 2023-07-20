@@ -21,6 +21,9 @@
  * -----------------------------------------------------------------------------
  */
 
+use anom\core\Registry;
+use anom\core\Render;
+
 // Define the Base Paths
 // -----------------------------------------------------------------------------
 $dir = explode('/', __DIR__);
@@ -52,7 +55,7 @@ $session = new (SESSION_DRIVER)();	                // Start a new session
 // prepare output control and benchmarking
 // -----------------------------------------------------------------------------
 ob_start();                                         // handle output
-if (!PRODUCTION)   Benchmark::add_spot('start');    // benchmark request's life
+if (!PRODUCTION)   \anom\core\Benchmark::add_spot('start');    // benchmark request's life
 
 
 
@@ -70,6 +73,6 @@ Route::run(Registry::get('REQUEST'));               // Run baby, run!
 
 
 
-if (!PRODUCTION)   Benchmark::add_spot('end');      // request ended
-if (!PRODUCTION)   echo( Benchmark::report());      // echo benchmark report
+if (!PRODUCTION)   \anom\core\Benchmark::add_spot('end');      // request ended
+if (!PRODUCTION)   echo( \anom\core\Benchmark::report());      // echo benchmark report
 ob_flush();                                         // flush output

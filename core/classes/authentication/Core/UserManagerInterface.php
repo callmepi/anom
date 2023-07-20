@@ -4,10 +4,10 @@
  * @package DevCoder\Authentication\Core
  * 
  */
-# namespace DevCoder\Authentication\Core;
-# 
-# use DevCoder\Authentication\Token\UserTokenInterface;
-# use DevCoder\Authentication\UserInterface;
+namespace anom\authentication\Core;
+
+use anom\authentication\Token\UserTokenInterface;
+use anom\authentication\UserInterface;
 
 interface UserManagerInterface
 {

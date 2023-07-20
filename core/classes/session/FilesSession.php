@@ -14,6 +14,10 @@
  * TODO:
  * implement cryptography
  */
+namespace anom\core\session;
+
+use anom\core\session\SessionHandlerInterface;
+
 class FileSessionHandler implements SessionHandlerInterface
 {
     /** The filesystem instance. */

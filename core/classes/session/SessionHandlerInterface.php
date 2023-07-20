@@ -1,10 +1,11 @@
 <?php
-
 /** SessionHandlerInterface
  * 
  * as of php's documentation (check manual)
  * https://www.php.net/manual/en/class.sessionhandlerinterface.php
  */
+namespace anom\core\session;
+
 interface SessionHandlerInterface
 {
 

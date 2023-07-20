@@ -10,6 +10,8 @@
  * @license	https://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  */
+namespace anom\core;
+
 class Security
 {
 

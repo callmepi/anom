@@ -2,6 +2,8 @@
 /** Database Class
  * 
  */
+namespace anom\core;
+
 class Database {
 
     /** PROPERTIES

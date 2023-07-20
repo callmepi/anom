@@ -3,8 +3,9 @@
  * 
  * this is the View part of the anom MVC framework
  ***/
+namespace anom\core;
 
- Class Render {
+class Render {
 
     /** load template
      * --- 

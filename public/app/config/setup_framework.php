@@ -176,7 +176,7 @@ define('AUTOLOADER' , APP_ROOT.'/vendor/autoload.php');
  * -----------------------------------------------------------------------------
  */
 
-define('SESSION_DRIVER', $env['SESSION_DRIVER'] ?? 'DefaultSession');
+define('SESSION_DRIVER', $env['SESSION_DRIVER'] ?? '\\anom\\core\\session\\DefaultSession');
 
 
 
