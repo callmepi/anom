@@ -16,91 +16,28 @@ highly extendable, php 8+, OOP MVC framework for the php-developer.
 
 
 
+
 ## 2. Requirements
 
 * php 8.1+
 * web server (apache configuration included; nginx to come)
-* latest MySQL or MariaDB (postgreSQL in development)
+* latest MySQL or MariaDB (postgreSQL support in development)
 
-Also the following tools are reccemded
+Also the following tools are recommended:
 
 * composer
 * git
 
 
 
-## 3. Installation and Deployment
 
-Before installing onto a production environment you need to pre-cech several settings
+## 3. Workline
 
-### 3.1 pre-Check
+TODO: describe...
+* common steps from repository to development environment
+* then from development to deploy
+* optimization proccess (mini how to)
 
-(1)   
-There are several ```composer*.json``` versions;    
-the  ```~./composer.json``` is the only one you actually need;   
-all others found under ```~./docker/config/composer-*,json``` are for testing/
-case-study puproses; so make sure that ```~./composer.json``` is updated with
-all required packages
- 
-(2)   
-When deploying on PRODUCTION make sure that all development routes are deleted
-and debuging messages are disabled.
-
-(3)    
-Anom pre-sets-up two writable folders:
-* ```~/storage``` (pre-public directory) ideal for file-sessioning, file-caching;
-also ideal for file-uploading when serve permition is needed;
-* ```~/public/files``` (post-public folder) which is ideal for public access content
-Make sure to keep the one that suits your needs (or both if needed);
-
-
-### 3.2 Install and Run on bare-metal or VPS
-
-* dowload and copy directory structure an a directory
-* install and setup third party  tools (ex. composer, redis, database)
-* crete a virtual-host; public HTML folder shall point to the ```~/public``` direcotry
-* enable needed apache-modules and your virtual host
-* restart web-server
-
-
-### 3.3 Setup and Deploy on Docker 
-
-
-#### 3.3.1 Build
-
-    docker build -t x-anom .
-
-Force build without using cache:
-
-    docker build --no-cache -t x-anom .
-
-
-
-#### 3.3.2 Run
-
-    docker-compose up
-
-Force rebuild; then run:
-
-    docker-compose up --build
-
-
-
-#### 3.3.3 Remove builded containers
-
-    docker-compose down
-
-
-
-#### 3.3.4 TODO: Deploy
-
-build and deply instructions for various plarforms (GCloud, Azure, etc)
-
-* Staging (Build / Deploy)
-* Production (Build / Deploy)
-
-
-! Run the above commands ONLY when you need to manually deploy the app to Cloud Run, otherwise everything is automated using Cloud Builds
 
 
 
@@ -120,8 +57,6 @@ If Composer is not an option and you use the framework's autoload implementation
 do not forger to update the (new) paths to your new classes in the ```CLASSPATHS```
 array . Both ```AUTOLOADER``` and ```CLASSPATHS``` definitions can be found
 into ```core/confing/anom_settings.php``` file.
-
-
 
 
 ### 4.1 XDebug
@@ -155,7 +90,85 @@ for vscode you need to add a ~./.vscode/launch.json file like this:
 
 
 
-## Customization
+## 5. Installation and Deployment
+
+Before you deploy the code onto a server environment (especialy the production
+environment) you need to pre-check several settings.
+
+
+### 5.1 Pre-Check
+
+(1)   
+There are several ```composer*.json``` versions;    
+the  ```~./composer.json``` is the only one you actually need;   
+all others found under ```~./docker/config/composer-*,json``` are for testing/
+case-study puproses; so make sure that ```~./composer.json``` is updated with
+all required packages
+ 
+(2)   
+When deploying on PRODUCTION make sure that all development routes are deleted
+and debuging messages are disabled.
+
+(3)    
+Anom pre-sets-up two writable folders:
+* ```~/storage``` (pre-public directory) ideal for file-sessioning, file-caching;
+also ideal for file-uploading when serve permition is needed;
+* ```~/public/files``` (post-public folder) which is ideal for public access content
+Make sure to keep the one that suits your needs (or both if needed);
+
+
+### 5.2 Install and Run on bare-metal or VPS
+
+* dowload/clone and copy directory structure an a directory
+
+* install and setup third party  tools (ex. composer, redis, database)
+
+* crete a virtual-host; public HTML folder shall point to the ```~/public``` direcotry
+
+* enable needed apache-modules and your virtual host
+
+* restart web-server
+
+
+### 5.3 Setup and Deploy on Docker 
+
+#### 5.3.1 Build
+
+    docker build -t x-anom .
+
+Force build without using cache:
+
+    docker build --no-cache -t x-anom .
+
+
+#### 5.3.2 Run
+
+    docker-compose up
+
+Force rebuild; then run:
+
+    docker-compose up --build
+
+
+#### 5.3.3 Remove builded containers
+
+    docker-compose down
+
+
+#### 5.3.4 TODO: Deploy
+
+build and deply instructions for various plarforms (GCloud, Azure, etc)
+
+* Staging (Build / Deploy)
+* Production (Build / Deploy)
+
+
+! Run the above commands ONLY when you need to manually deploy the app to Cloud Run, otherwise everything is automated using Cloud Builds
+
+
+
+
+## 6. Customization
 
 The project includes several almost-ready-to-use technologies;
 You can enable / customize / disable / configure all these with a few edits.
@@ -173,8 +186,7 @@ There is no need to use both Redis and Memcached, thus I have not test if these
 two caching technologies will work together using the proposed comfiguration.
 
 
-
-### Redis
+### 6.1 Redis
 
 To enable Redis...
 
@@ -192,15 +204,13 @@ as your composer.json file -or- install it via:
     composer require predis/predis
 
 
-
-### Memcached
+### 6.2 Memcached
 
 To host the Memcached service:
 
 1. Onto docker-compose.yml: uncomment the lines of 'memcached' section; Memcached-server host name will be the one that is specified in the container_name field (default: anomemcached)
 
 2. Onto Dockerfile: uncomment the lines under subsection 'Install Memcached'
-
 
 
 ### TODO: configutations
@@ -218,6 +228,7 @@ To host the Memcached service:
 * nginx; setup nginx as the default web-server
 
 * Opcache and JIT
+
 
 
 
