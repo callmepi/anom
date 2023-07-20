@@ -26,7 +26,7 @@ class UserToken implements UserTokenInterface
     /** getUser
      * 
      */
-    public function getUser(): UserInterface
+    public function getUser() : UserInterface
     {
         return $this->user;
     }
@@ -38,7 +38,7 @@ class UserToken implements UserTokenInterface
      * ... then it will be saved into session[DEFAULT_PREFIX_KEY]
      *
      */
-    public function serialize(): string
+    public function serialize() : string
     {
         return serialize($this);
     }

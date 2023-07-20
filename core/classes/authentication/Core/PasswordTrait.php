@@ -16,7 +16,7 @@ trait PasswordTrait
             // is a good balance between performance and security
 
 
-    public function cryptPassword(string $plainPassword): string
+    public function cryptPassword(string $plainPassword) : string
     {
         return password_hash($plainPassword, PASSWORD_BCRYPT, ['cost' => $this->cost]);
     }
@@ -28,7 +28,7 @@ trait PasswordTrait
     }
 
 
-    public function setCost(int $cost): void
+    public function setCost(int $cost) : void
     {
         if ($cost < 4 || $cost > 31) {
             throw new \InvalidArgumentException('Cost must be in the range of 4-31.');

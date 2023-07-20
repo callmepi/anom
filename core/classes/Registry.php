@@ -58,8 +58,9 @@ class Registry
      * 
      * @param string $key
      * @param mixed $data
+     * @return bool
      */
-    static function set($key, $data)
+    static function set(string $key, $data) : bool
     {
         // TODO: not use if needed...
         // you may include an explicit method for reseting the key
@@ -85,7 +86,7 @@ class Registry
      * @param string $key : the label
      * @return mixed data
      */
-    static function get($key)
+    static function get(string $key)
     {
         // if defined and not beeing a vow/wish, serve
         if (isset(self::$records[$key]) && (!isset(self::$wish[$key]))) {
@@ -126,7 +127,7 @@ class Registry
      * @param string $label
      * @param array $args
      */
-    static function use($label, $args=[])
+    static function use(string $label, $args=[])
     {
         // if already prepered (and is a wish) serve it
         if (isset(self::$records[$label]) && isset(self::$wish[$label])) {

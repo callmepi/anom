@@ -29,7 +29,7 @@ class UserManager implements UserManagerInterface
      * == get user from session
      * 
      */
-    public function getUserToken(): ?UserTokenInterface
+    public function getUserToken() : ?UserTokenInterface
     {
         $userToken = null;
         if ($this->hasUserToken()) {
@@ -46,7 +46,7 @@ class UserManager implements UserManagerInterface
      * @param void
      * @return boolean
      */
-    public function hasUserToken(): bool
+    public function hasUserToken() : bool
     {
         $key = UserTokenInterface::DEFAULT_PREFIX_KEY;
         return (array_key_exists($key, $_SESSION) && unserialize($_SESSION[$key]) !== false);
@@ -65,7 +65,7 @@ class UserManager implements UserManagerInterface
      * @param $roles (array) : array of (int) role IDs
      * @return boolean
      */
-    public function isGranted(array $roles): bool
+    public function isGranted(array $roles) : bool
     {
         // if (!is_null($userToken = $this->getUserToken())) {
         if (is_null($userToken = $this->getUserToken())) {
@@ -97,7 +97,7 @@ class UserManager implements UserManagerInterface
      * == clear session
      * 
      */
-    public function logout(): void
+    public function logout() : void
     {
         if ($this->hasUserToken()) {
             unset($_SESSION[UserTokenInterface::DEFAULT_PREFIX_KEY]);
