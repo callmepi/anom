@@ -2,7 +2,7 @@
 
 namespace app\controllers\api;
 
-use \Registry;
+use anom\core\Registry;
 use app\models\market\Product_model;
 use app\models\market\ProductCategories_model;
 

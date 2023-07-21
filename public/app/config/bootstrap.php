@@ -18,7 +18,6 @@
  * -----------------------------------------------------------------------------
  */
 
- 
 use anom\core\Registry;
 use anom\core\Request;
 use anom\core\Database;
@@ -53,12 +52,12 @@ Registry::vow('cache', function() { return new (CACHE_DRIVER)(); });
 Registry::set('REQUEST', new Request());
 
 
-
-// load design-patterns
-// (these patterns use some of the project's central objects (Registry,
-// Cache, Database), so laod them after.
-// -----------------------------------------------------------------------------
-require_once APP_ROOT.'/core/helpers/design_patterns.php';
+/// DEPRECATED:
+/// // load design-patterns
+/// // (these patterns use some of the project's central objects (Registry,
+/// // Cache, Database), so laod them after.
+/// // -----------------------------------------------------------------------------
+/// require_once APP_ROOT.'/core/helpers/design_patterns.php';
 
 
 // Add Routes

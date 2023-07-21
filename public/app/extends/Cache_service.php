@@ -1,8 +1,10 @@
 <?php 
 namespace app\extends;
 
+use app\core\ProxyTrait;
 use app\models\Cms_model;
 use app\models\Access_model;
+
 
 /** Cache service
  * -----------------------------------------------------------------------------
@@ -16,10 +18,11 @@ use app\models\Access_model;
  */
 class Cache_service
 {
+    use ProxyTrait;
 
     public static function courses_struct( $options = 0 )
     {
-        return proxy(                  // cache-get courses
+        return self::proxy(                  // cache-get courses
             [\app\models\Cms_model::class, 'courses_struct'],
             [], CACHE_ROOT_TTL,
             $options
@@ -28,7 +31,7 @@ class Cache_service
 
     public static function files_attributes( $options = 0 )
     {
-        return  proxy(
+        return  self::proxy(
             [\app\models\Cms_model::class, 'files'],
             [], CACHE_ROOT_TTL,
             $options

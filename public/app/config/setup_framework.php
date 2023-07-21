@@ -459,27 +459,27 @@ define('COMMON_CONTENT_TYPES', array(
 
 
 
-/** PROXY_FLAGS
- * -----------------------------------------------------------------------------
- * These options represend altered/non-default behaviour
- * and will be resolved bitwise, so use powers of 2
- * -----------------------------------------------------------------------------
- */
-define('PROXY_CACHE_ERRORS', 1);  // cache result even if error
-define('PROXY_IGNORE_CACHE', 2);  // ignore cache if exist
-define('PROXY_DO_NOT_CACHE', 4);  // do not cache result
+// DEPRECATED:
+/// /** PROXY_FLAGS
+///  * -----------------------------------------------------------------------------
+///  * These options represend altered/non-default behaviour
+///  * and will be resolved bitwise, so use powers of 2
+///  * -----------------------------------------------------------------------------
+///  */
+/// define('PROXY_CACHE_ERRORS', 1);  // cache result even if error
+/// define('PROXY_IGNORE_CACHE', 2);  // ignore cache if exist
+/// define('PROXY_DO_NOT_CACHE', 4);  // do not cache result
 
 
-
-/** BENCHMARK REPORT TYPES
- * -----------------------------------------------------------------------------
- */
-
-define('BENCH_REPORT_ARRAY', 1);    // repost as array
-define('BENCH_REPORT_JSON' , 2);    // report as json oblject
-define('BENCH_REPORT_HTML' , 3);    // report as HTML code
-define('BENCH_REPORT_CODE' , 4);        // report as CODE/text
-define('BENCH_REPORT_COMMENT' , 5);     // report as HTML comment
+// DEPRECATED:
+/// /** BENCHMARK REPORT TYPES
+///  * -----------------------------------------------------------------------------
+///  */
+/// define('BENCH_REPORT_ARRAY', 1);    // repost as array
+/// define('BENCH_REPORT_JSON' , 2);    // report as json oblject
+/// define('BENCH_REPORT_HTML' , 3);    // report as HTML code
+/// define('BENCH_REPORT_CODE' , 4);        // report as CODE/text
+/// define('BENCH_REPORT_COMMENT' , 5);     // report as HTML comment
 
 
 

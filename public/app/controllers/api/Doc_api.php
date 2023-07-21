@@ -2,21 +2,25 @@
 
 namespace app\controllers\api;
 
+use app\core\ProxyTrait;
+use app\core\Render;
+
 use app\models\market\ProductCategories_model;
 use app\models\Jorge;
 
 class Doc_api
 {
+    use ProxyTrait;
 
     /** */
     public static function tree($store = 904)
     {
-        $tree = proxy(
+        $tree = self::proxy(
             [ProductCategories_model::class,'tree'],
             [], CACHE_ROOT_TTL,
             PROXY_IGNORE_CACHE
         );
-        reply_json([ 'success' => true, 'result' => $tree ]);
+        Render::json([ 'success' => true, 'result' => $tree ]);
         die();
     }
 
@@ -24,7 +28,7 @@ class Doc_api
     public static function dbDoc()
     {
         $j = new Jorge();
-        reply_json([
+        Render::json([
             'success' => true,
             'result' => $j->databaseDocumentation()
         ]);

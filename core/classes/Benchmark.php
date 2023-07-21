@@ -1,5 +1,4 @@
 <?php
-
 /** Benchmarn class
  * -----------------------------------------------------------------------------
  * 
@@ -9,13 +8,18 @@
  * [*] tracks memory usage for the marked timespots
  * [*] creates reports in various formats
  * 
- * TODO: create an (optional) ascii graph ??
+ * TODO:
+ * + create an XML report
+ * + create an (optional) ascii graph ??
  * 
  * -----------------------------------------------------------------------------
  */
 namespace anom\core;
 
-class Benchmark {
+use anom\core\Def;
+
+class Benchmark
+{
 
     /** PROPERTIES
      * -------------------------------------------------------------------------
@@ -92,29 +96,29 @@ class Benchmark {
      * as html comment at the end of webpage in various modes
      * 
      * @param int $mode: report format id
-     * ... default: BENCH_REPORT_COMMENT (5) = report as html comment;
-     * ... for more report-formats check the BENCH_REPORT_* defines
+     * ... default: Def::BENCH_REPORT_COMMENT (5) = report as html comment;
+     * ... for more report-formats check the Def::BENCH_REPORT_* defines
      */
-    public static function report(string $mode = BENCH_REPORT_COMMENT)
+    public static function report(string $mode = Def::BENCH_REPORT_COMMENT)
     {
         if ( (self::$reportEnabled) && (!empty(self::$timeSpots)) ) {
 
             switch ($mode) {
-                case BENCH_REPORT_ARRAY:
+                case Def::BENCH_REPORT_ARRAY:
                     return [
                         'timespots' => self::$timeSpots,
                         'memory_usage' => self::$memoryUse
                     ];
                     break;
 
-                case BENCH_REPORT_JSON:
+                case Def::BENCH_REPORT_JSON:
                     return json_encode([
                         'timespots' => self::$timeSpots,
                         'memory_usage' => self::$memoryUse
                     ], JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
                     break;
 
-                case BENCH_REPORT_HTML:
+                case Def::BENCH_REPORT_HTML:
                     $open = '<p>';
                     $close = '</b></p>';
                     $divider = ":<b>";
@@ -122,7 +126,7 @@ class Benchmark {
                     $suffix = '</div>';
                     break;
 
-                case BENCH_REPORT_CODE:
+                case Def::BENCH_REPORT_CODE:
                     $open = '';
                     $close = '';
                     $divider = ": ";
@@ -130,7 +134,7 @@ class Benchmark {
                     $suffix = '</pre>';
                     break;
 
-                case BENCH_REPORT_COMMENT:
+                case Def::BENCH_REPORT_COMMENT:
                 default:
                     $open = '<!--';
                     $close = '-->';
